@@ -1,0 +1,62 @@
+/* Modal Layout */
+.gallery-popup-body {
+  max-height: 90vh;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* Swiper 슬라이드 */
+.mySwiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+/* 오른쪽 정보 패널 */
+.gallery-right-panel {
+  padding: 25px;
+  border-left: 1px solid #e5e5e5;
+  background-color: #fff;
+  overflow-y: auto;
+  max-height: 90vh;
+  word-break: break-word;
+}
+
+/* 영상 설명 */
+#modal-description {
+  word-break: break-word;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  margin-bottom: 15px;
+}
+
+/* 댓글 박스 영역 */
+#modal-comments {
+  max-height: 200px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+.comment-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+  word-break: break-word;
+}
+
+.delete-comment-btn {
+  background: none;
+  border: none;
+  color: red;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+}
